@@ -1,0 +1,24 @@
+{
+  "name": "pulsechat",
+  "version": "1.0.0",
+  "description": "PulseChat — Next-Gen Real-Time Messenger",
+  "main": "backend/server.js",
+  "scripts": {
+    "postinstall": "npm install --prefix backend && npm install --prefix frontend",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm --prefix frontend run build",
+    "start": "node backend/server.js",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  },
+  "keywords": [
+    "chat",
+    "real-time",
+    "websocket",
+    "react",
+    "express",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "ISC"
+}
