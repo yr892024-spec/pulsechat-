@@ -34,3 +34,7 @@ Thumbs.db
 scratch/
 tmp/
 temp/
+
+cloudflared.exe
+
+cloudflare_tunnel.js
